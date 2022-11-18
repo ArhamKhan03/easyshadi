@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Righteous&family=Roboto:wght@300;400;700&family=Rochester&family=Ubuntu:wght@300;400&family=Yanone+Kaffeesatz&display=swap');
+:root{
+    --primary-color:#d291bc;
+    --secondary-color:#cb7fb1;
+}
+h1,h2,h3{
+
+    font-family: 'Rochester', cursive; 
+}
+
+/* ---------header--------- */
+header{
+    position: relative;
+    /* background-image: url('../media/images/header-img4.jpg'); */
+    background: linear-gradient(rgba(210, 145, 188,0.3),rgba(210, 145, 188,0.4)),
+    url('../media/images/header-img4.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-content{
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.ring-img-holder img{
+    width: 60px;
+    margin-top: 20px;
+}
+
+.ring-img-holder{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+
+}
+
+.header-content h1{
+
+    margin-top: 30px;
+    font-size: 5.2rem;
+    margin-bottom: 15px;
+}
+
+.header-content h6{
+    text-transform: uppercase;
+    width: fit-content;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    font-size: 0.75rem;
+    letter-spacing: 7px;
+    font-weight: 900;
+    color: var(--secondary-color);
+}
+
+/* ------------nav bar----------- */
+
+.nav-link{
+
+    color: white !important;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    transition: 0.3s;
+
+}
+
+.nav-link:hover{
+    transform: translateY(-7px);
+}
+
+.navbar-brand{
+
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* -------------footer----------- */
+
+footer{
+    min-height: 100vh;
+    background-color: var(--primary-color);
+}
