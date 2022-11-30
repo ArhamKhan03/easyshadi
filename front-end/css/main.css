@@ -3,6 +3,7 @@
 :root{
     --primary-color:#d291bc;
     --secondary-color:#cb7fb1;
+    --accent-color: #F0D9E8;
 }
 h1,h2,h3{
 
@@ -94,4 +95,183 @@ header{
 footer{
     min-height: 100vh;
     background-color: var(--primary-color);
+    padding: 100px 0;
+
+}
+
+footer h5{
+    color:  white;
+    font-size: 23px;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+footer p{
+    color : white;
+    font-size: 16px;
+    line-height: 1.2;
+    
+}
+
+.footer-links{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-links li a{
+    color: white;
+    font-size: 16px;
+    line-height: 1;
+    
+}
+
+.footer-links li{
+    margin-bottom: 15px;
+}
+
+.footer-links li i{
+    margin-right: 5px;
+}
+
+.footer-social{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 10px;
+
+}
+
+.footer-social a{
+    color: white;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s all ease-in-out;
+}
+.footer-social a:hover {
+    background: white;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+.footer-contact a{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+
+}
+
+.footer-contact a i{
+    display: flex;
+    height: 20px;
+    width: 10px;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* ----------Friend & Family------------- */
+
+section{
+    padding-top: 100px  ;
+}
+
+.sec-fnf{
+    background-color:  white;
+    min-height: 100vh;
+
+}
+
+.sec-header{
+    text-align: center;
+
+}
+
+.sec-header h1{
+    color: var(--secondary-color);
+    font-size: 5rem;
+}
+
+.sec-header h6{
+    padding: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    font-weight: 800;
+    border: dashed var(--secondary-color) 1px ;
+}
+
+.fnf-card{
+    text-align: center;
+    padding: 10px;
+}
+
+.fnf-card img{
+    width: 100%;
+    border: solid var(--accent-color) 10px ;
+}
+
+.fnf-card h5{
+    font-family: 'Rochester', cursive;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.fnf-card p{
+    color: silver;
+    font-weight: 600;
+}
+
+.sec-swt-msg{
+    background-color: rgb(240, 243, 243);
+    min-height: 100vh;
+}
+
+.swt-msg-crd{
+    background-color: white;
+    padding: 20px;
+}
+
+.swt-crd-body{
+    display: flex;
+    
+}
+
+.swt-crd-body img{
+    width: 80px;
+    border: solid var(--accent-color) 5px ;
+}
+
+.swt-crd-body h4{
+    font-size: 1.2rem;
+}
+
+.swt-crd-body p{
+    color: var(--secondary-color);
+}
+
+.swt-crd-inner{
+    display: flex;
+    align-items: center;
+}
+
+.crd-msg-content{
+    color: gray;
+    line-height: 30px;
 }
