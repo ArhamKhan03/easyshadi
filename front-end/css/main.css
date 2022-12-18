@@ -690,3 +690,123 @@ position: relative;}
     transform: translateY(-5px);
 }
 
+
+
+/* ====================================================================
+-----------------------about-us----------------------------------------
+==================================================================== */
+
+
+.abt-us-sec{
+
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+.abt-us-header{
+
+    min-height: 550px;
+    text-align: center;
+    background-image: url('../media/images/header-img2.jpg');
+    background-size:cover ;
+}
+
+.abt-us-header h1{
+    padding-top: 100px;
+    color: white;
+}
+
+.abt-us-header p{
+
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 30px;
+}
+
+
+.abt-us-header button{
+
+    padding: 10px 20px;
+    background: transparent;
+    font-size: 1.1rem;
+    border: solid white 2px;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.abt-us-header button:hover{
+
+    background-color: var(--secondary-color);
+    
+}
+
+
+
+.abt-sub-contnt{
+    padding: 90px;
+    text-align: center;
+    min-height: 500px;
+}
+
+
+.abt-sub-contnt h2{
+    margin-top: 40px;
+    color: var(--primary-color);
+}
+
+
+.abt-sub-contnt p{
+    margin-top: 35px;
+    line-height: 30px;
+}
+
+
+.abt-sub-contnt button{
+    color: white;
+    background-color: var(--secondary-color);
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    margin-top: 35px;
+    letter-spacing: 2px;
+}
+
+
+.abt-sub-img{
+
+    min-height: 500px;
+    background-image: url('../media/images/header-img4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.abt-sub-img2{
+
+    min-height: 500px;
+    background-image: url('../media/images/header-img3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.abt-features{
+
+    text-align: center;
+}
+
+.abt-features span{
+    font-size: 3rem;
+    color: var(--secondary-color);
+}
+
+.abt-features h4{
+
+    font-size: 1.2rem;
+    margin: 10px;
+}
