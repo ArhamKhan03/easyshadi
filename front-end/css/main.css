@@ -4,6 +4,7 @@
     --primary-color: #d291bc;
     --secondary-color: #cb7fb1;
     --accent-color: #F0D9E8;
+    --dark-color: #10213d;
 }
 
 h1,
@@ -14,9 +15,30 @@ h3 {
 
 header {
     position: relative;
-    background: linear-gradient(rgba(210, 145, 188, 0.3), rgba(210, 145, 188, 0.4)) 0% 0% / cover fixed, url("../media/images/header-img4.jpg");
     min-height: 100vh;
+    overflow: hidden;
 }
+
+
+header video{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    z-index: -1;
+
+}
+
+.video-contnt{
+
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    
+
+
+}
+
 
 .header-content {
     position: absolute;
@@ -345,6 +367,127 @@ position: relative;}
     gap: 20px;
 }
 
+.sec-about-home{
+    min-height: 100vh;
+
+}
+
+.sec-about-home img{
+    width: 100%;
+}
+
+.sec-about-home a{
+    background-color: var(--primary-color);
+    display: inline-block;
+    padding: 8px 15px;
+    color: white;
+    margin-top: 15px;
+}
+
+.sec-get-in-touch{
+    background-color: var(--dark-color);
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.sec-get-in-touch h2{
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.sec-get-in-touch p{
+    color: silver;
+    font-size: 1.1rem;
+}
+
+.sec-get-in-touch input{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: solid 2px silver;
+    padding: 8px 15px;
+    color: rgb(219, 217, 217);
+    border-radius: 7px;
+    margin-top: 15px;
+
+}
+
+.sec-get-in-touch input:focus{
+    border-color: var(--secondary-color);
+}
+
+.sec-get-in-touch button{
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    padding: 8px 20px;
+    font-size: 1.1rem;
+    color: white;
+
+}
+
+.sec-services-home{
+    padding: 0 !important;
+}
+
+.service-h-crd{
+    background-image: url('../media/images/wedding.jpg');
+    height: 500px;
+    background-size: cover;   
+}
+
+.s-h-1{
+    background-image: url('../media/images/camera.jpg') !important;
+}
+
+.s-h-2{
+    background-image: url('../media/images/car.jpg') !important;
+}
+
+
+.service-h-crd:hover .s-h-crd-inner{
+    visibility: visible;
+    opacity: 1;
+    height: 500px;
+
+}
+
+
+.s-h-crd-inner{
+    height: 0px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.s-h-crd-inner h2{
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 2.7rem;
+    margin-top: 25px;
+}
+
+.s-h-crd-inner p{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.s-h-crd-inner a{
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    padding: 8px 20px;
+    font-size: 1.1rem;
+    color: white;
+    display: inline-block;
+}
 
 
 /* ====================================================================
@@ -810,3 +953,4 @@ position: relative;}
     font-size: 1.2rem;
     margin: 10px;
 }
+
